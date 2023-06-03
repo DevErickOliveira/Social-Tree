@@ -19,7 +19,7 @@
   --bg-url: url(./assets/Background.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
@@ -40,6 +40,7 @@ body * {
 
 #container {
   width: 360px;
+  max-width: 588%;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -63,7 +64,7 @@ body * {
 
 /*switch*/
 
-#switch{
+#switch {
   position: relative;
   width: 64px;
   margin: 4px auto;
@@ -93,11 +94,10 @@ body * {
   border-radius: 999px;
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
-
 
 /* links - lista */
 ul {
